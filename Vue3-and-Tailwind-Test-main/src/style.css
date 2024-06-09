@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    h1, h2, h3, h4, h5, h6 {
+        @apply font-Arima;
+    }
+
+    section {
+        @apply w-full h-screen;
+    }
+}
+
+@layer components{
+    .input-field{
+        @apply py-3 px-2 border-solid border-secondaryColor border-2 rounded-md w-full mb-8;
+    }
+}
